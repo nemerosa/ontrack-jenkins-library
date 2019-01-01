@@ -14,3 +14,9 @@ match against the Ontrack branch name
 Returns:
 
 * the name of the last Ontrack branch of the project which matches the `pattern` regular expression. `null` is returned is nothing is found.
+
+Example:
+
+```groovy
+String branch = ontrackGetLastBranch(project: "PRJ", pattern: "release-.*")
+```
