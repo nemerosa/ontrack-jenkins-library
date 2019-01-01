@@ -22,6 +22,6 @@ def call(Map<String,?> params) {
    if (branches.isEmpty()) {
       return null
    } else {
-      return branches.first().name.asText()
+      return branches.first().name as String
    }
 }
