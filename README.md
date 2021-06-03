@@ -1,5 +1,8 @@
 # ontrack-jenkins-library
-Jenkins pipeline library to interact with Ontrack
+
+Jenkins pipeline library to interact with Ontrack.
+
+> This library is now deprecated and the [`ontrack-jenkins-cli-pipeline`](https://github.com/nemerosa/ontrack-jenkins-cli-pipeline) must be used instead.
 
 ## List of tasks
 
